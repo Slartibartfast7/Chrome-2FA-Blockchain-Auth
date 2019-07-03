@@ -1,0 +1,27 @@
+{
+  "name": "2FA Blockchain",
+  "version": "0.1",
+  "description": "Use 2FA where you want without your mobile phone",
+  "permissions": ["activeTab", "storage"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "interface": {
+    "default_popup": "interface.html",
+    "default_icon": {
+      "16": "images/2fa16.png",
+      "32": "images/2fa32.png",
+      "48": "images/2fa48.png",
+      "128": "images/2fa128.png"
+    }
+  },
+  "icons": {
+    "16": "images/2fa16.png",
+      "32": "images/2fa32.png",
+      "48": "images/2fa48.png",
+      "128": "images/2fa128.png"
+  },
+  "manifest_version": 2
+}
